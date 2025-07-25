@@ -96,6 +96,9 @@
     grid-template-columns: repeat(4,0fr);
     gap: 20px;
 }
+.plant-section h1{
+font-size: 50px;
+}
 /* plant section end */
 
 /* card section starts */
@@ -119,10 +122,154 @@ button{
 
 /* card section end */
 
-@media screen and (max-width:576px){
-    .nav-logo, .cart-logo, .banner{
-        flex-direction: column;
-    }
+/* plant lover section start */
+.lover-container{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 210px;
+    margin-bottom: 133px;
+    /* justify-content: center; */
+
 
 }
+.man-pic{
+    max-width: 540px;
+    max-height: 597px;
+    margin-right: 60px;
+}
+.flower-text{
+    max-width: 540px;
+    margin: 38px 0 38px 60px;
+}
+.flower-text h1{
+    font-size: 50px;
+    margin-top: 38px;
+}
+.flower-ul li {
+    margin: 20px 10px;
+}
+
+
+/* plant lover section end */
+
+/* latest deal section starts */
+.latest-deal{
+    text-align: center;
+    margin-bottom: 120px;
+
+}
+.plant-des{
+    margin-top: 16px;
+    margin-bottom: 49px;
+}
+
+/* latest deal section ends */
+
+/* image layout starts */
+.layout-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-bottom: 120px;
+    
+    
+}
+.layout-container a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.plant-image {
+    margin-right: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.image-box p,a{
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* wrapper for image + overlay */
+.image-box {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* common styles for all images */
+.image-box img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* specific image border-radius */
+.bloom-img,
+.ana-img {
+    border-radius: 10px;
+}
+
+.zabo-img {
+    border-radius: 20px;
+    
+}
+.zfont{
+    font-size: 50px;
+}
+.zp{
+    font-size: 28px;
+    
+}
+
+/* overlay section */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* dark transparent */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* zabo image center alignment */
+.center-text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* text styles */
+.overlay p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #fff;
+    
+}
+
+/* button styles */
+/* .overlay button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+} */
+/* image layout ends */
+
+/* image layout ends */
+
+
+
     
