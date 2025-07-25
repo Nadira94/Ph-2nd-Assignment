@@ -18,19 +18,23 @@
 
         <!-- Nav start-->
         <nav class="navbar display-flex">
-            <img class="" src="images/logo.png" alt="">
-            <ul class=" nav-links display-flex">
-                <li class="nav-item"><a href="" class="nav-link text-black">Home</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-gray">Shop</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-gray">About</a></li>
-                <li class="nav-item"><a href="" class="nav-link text-black"><span class="cart-logo">
-                    <i class="fa-solid fa-cart-shopping"></i> Cart ($57)
-                </span>
-                </a></li>
+  <img class="" src="images/logo.png" alt="">
 
-            </ul>
+  <ul class="nav-links display-flex">
+    <li class="nav-item"><a href="" class="nav-link text-black">Home</a></li>
+    <li class="nav-item"><a href="" class="nav-link text-gray">Shop</a></li>
+    <li class="nav-item"><a href="" class="nav-link text-gray">About</a></li>
 
-        </nav>
+    <!-- ✅ Keep this Cart item visible even on mobile -->
+    <li class="nav-item cart-only">
+      <a href="" class="nav-link text-black">
+        <span class="cart-logo">
+          <i class="fa-solid fa-cart-shopping"></i> Cart ($57)
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
         <!-- Nav End-->
 
         <!-- Banner starts-->
@@ -201,7 +205,7 @@
       <ul>
         <li>Home</li>
         <li>About Us</li>
-        <li>Blog</li>
+        <li>Blog</li>  
         <li>FAQ</li>
         <li>Contact Us</li>
       </ul>

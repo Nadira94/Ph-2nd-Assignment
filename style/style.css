@@ -484,7 +484,7 @@ button{
 .footer-links {
   display: flex;
   flex: 2 1 400px;
-  gap: 60px;
+  gap: 140px;
 }
 
 .footer-links ul {
@@ -535,6 +535,127 @@ button{
 
   .footer-social {
     margin-top: 20px;
+  }
+}
+
+/* nav */
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-item:not(.cart-only) {
+    display: none;
+  }
+}
+
+/*  */
+/* Responsive for max-width 768px */
+@media (max-width: 768px) {
+
+  /*  Banner section: image top, content below */
+  .banner-container {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .banner-image {
+    order: -1;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .banner-title h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  .title-des {
+    font-size: 16px;
+  }
+
+  /*  Plant Section (cards 2 column) */
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 100%;
+    max-width: 270px;
+  }
+
+  /*  Plant Lover Section: image top, content below */
+  .lover-container {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .man-pic {
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .flower-text {
+    margin: 0;
+    width: 100%;
+  }
+
+  .flower-text h1 {
+    font-size: 32px;
+  }
+
+  .flower-ul li {
+    font-size: 14px;
+  }
+
+  /*  Image Layout (deal section) becomes column */
+  .layout-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plant-image {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .image-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .overlay h1 {
+    font-size: 20px;
+  }
+
+  /*  Join Section  responsive  */
+  .join-sec .overlay h1 {
+    font-size: 28px;
+  }
+
+  /* Footer responsiveness  */
+  .footer-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
   }
 }
 
