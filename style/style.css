@@ -82,3 +82,47 @@
 }
 /* banner ends */
 
+/* plant section starts */
+.plant-section{
+    text-align: center;
+
+}
+.plant-des{
+    margin-top: 16px;
+    margin-bottom: 49px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    gap: 20px;
+}
+/* plant section end */
+
+/* card section starts */
+.card-section{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.Lily{
+    text-align: center;
+}
+button{
+    width: 270px;
+    height: 50px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    margin-bottom: 30px;
+}
+
+
+/* card section end */
+
+@media screen and (max-width:576px){
+    .nav-logo, .cart-logo, .banner{
+        flex-direction: column;
+    }
+
+}
+    
