@@ -356,9 +356,8 @@ button{
 
 .join-sec {
   position: relative;
-  max-width: 1140px; /* max container width */
+  max-width: 100%; 
   margin: 0 auto 120px auto; /* center horizontally */
-  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -367,7 +366,7 @@ button{
   height: auto;
   display: block;
   object-fit: cover;
-  border-radius: 10px;
+
 }
 
 .join-sec .overlay {
@@ -520,9 +519,7 @@ button{
   transition: color 0.3s ease;
 }
 
-.footer-social a:hover {
-  color: #E95A08; /* optional accent color */
-}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -533,7 +530,7 @@ button{
 
   .footer-links {
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
   }
 
   .footer-social {
